@@ -1,0 +1,45 @@
+/*Background Image*/
+body
+{
+    background-image:url('../images/istockphoto-1153689198-612x612.jpg');
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    position: relative;
+}
+li{
+    font-size: 30px;
+    font-weight: 700;
+}
+a.nav-link
+{
+    color: white;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+    color: black;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+    color: blue;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+    background-color: #cbbcb1;
+}
+
+.mask-custom {
+    backdrop-filter: blur(5px);
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+    letter-spacing: 3px;
+}
